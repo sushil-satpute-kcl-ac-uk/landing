@@ -1,0 +1,105 @@
+/* Write some CSS below */
+body{
+	font-family: Courier;
+	font-size: 18px;
+	color: rgb(30, 30, 30);
+	background-color: rgb(200, 200, 200);
+	margin-left: 0px;
+	}
+
+h1,h2{
+	font-family: "chivo", sans-serif;
+}
+
+a{
+	color: white;
+	background-color: #3049DE;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: red;
+}
+
+
+/* custom class design */
+
+.btn-blue {
+	background-color: #3049DE;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 2px;
+}
+
+.banner	{
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0px;
+
+}
+.banner h1 {
+	font-size: 40px;
+}
+
+
+.banner p {
+	font-size: 20px;
+	opacity-size: 0.7;
+	margin-bottom: 40px;
+}
+
+
+
+.card-white {
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	padding: 18px;
+	border-radius: 3px;
+	margin: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+
+
+
